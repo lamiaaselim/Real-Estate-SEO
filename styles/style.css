@@ -1,0 +1,209 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+::selection{
+    background-color: rgb(54, 168, 213);
+    color: aliceblue;
+}
+/* #148cbe */
+/* ------------ Navbar ------------ */
+i .fa-store:hover{
+    color:rgb(20, 140, 190);
+}
+.nav-item a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+.nav-item a:hover{
+    color: rgb(20, 140, 190);
+}
+.search{
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 140, 190);
+    background-color: transparent;
+    border-radius: 0px 20px 20px 0px;
+    border-left: none;
+}
+.btn1{
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 140, 190);
+    color: white;
+    border-radius: 20px 0px 0px 20px;
+    transition: all 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(20, 140, 190);
+}
+.navbar-toggler{
+    font-size: 20px;
+    color: black;
+}
+.navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
+}
+/* End Navbar */
+
+/* Main section */
+.carousel-inner {
+    border-radius: 50% 0 50% 0;
+    margin: 0 25px 0 0;
+}
+.mbtn1{
+    height: 50px;
+    width: 30%;
+    outline: none;
+    border: none;
+    background-color: rgb(54, 168, 213);
+    color: white;
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn2{
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: 1px solid rgb(20, 140, 190);
+    background-color: transparent;
+    color: rgb(20, 140, 190);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+.mbtn1:hover{
+    background-color: rgb(20, 140, 190);
+}
+.mbtn2:hover{
+    border: none;
+    background-color: rgb(20, 140, 190);
+    color: white;
+}
+.main h1{
+    font-size: 4.5rem;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+.main p:nth-child(1){
+    padding-top: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+    font-family: 'Droid Arabic Kufi', sans-serif;
+}
+.main p:nth-child(2){
+    font-size: 15px;
+    color: black;
+}
+.line{
+    height: 6px;
+    width: 30%;
+    background: rgb(20, 140, 190);
+    display: inline-block;
+}
+/* --------- About section --------- */
+/* .about{
+    background: url(../images/Building\ safety-rafiki.svg) no-repeat;
+    background-size: cover;
+    height:600px;
+    width: 100%;
+} */
+.about h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.about p:nth-child(1){
+    padding-top: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.about p:nth-child(2){
+    font-size: 15px;
+    color: black;
+}
+/* ---------- Services section ----------  */
+.service h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.service p:nth-child(1){
+    padding-top: 100px;
+    font-size: 15px;
+    font-weight: 500;
+    color: black;
+}
+.service p:nth-child(2){
+    font-size: 15px;
+    color: black;
+}
+/*-------------------- Whatsapp --------------------*/
+.whatsapp{
+    background-color: rgb(54, 168, 213);
+}
+.dbtn{
+    height: 50px;
+    width: 90%;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color: rgb(238, 231, 231);
+}
+/*-------------------- Contact-us Seller --------------------*/
+.contact-us h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.contact-us .contact-form textarea{
+	height: 100px;
+	margin-bottom: 8px;
+}
+.contact-us .contact-form input:focus,
+.contact-us .contact-form button:focus,
+.contact-us .contact-form textarea:focus{
+    border: 1px solid 2px rgb(20, 140, 190);
+    box-shadow: none;
+    border-color: rgb(20, 140, 190);
+    box-shadow: -1px 1px 20px -11px rgb(54, 168, 213);
+}
+.contact-us .contact-form input,
+.contact-us .contact-form textarea{
+	background: #FFF;
+	color: black;
+}
+
+/*-------------------- Footer  --------------------*/
+.footer {
+    background: rgb(54, 168, 213);
+    padding: 85px 0;
+}
+.socials i{
+    font-size: 20 px;
+    margin-right: 90px;
+}
+@media (max-width: 767px) {
+    .single-box{
+        margin-bottom: 50px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .single-box{
+        margin-bottom: 50px;
+    }
+}

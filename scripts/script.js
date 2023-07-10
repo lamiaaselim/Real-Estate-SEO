@@ -1,0 +1,23 @@
+// // Nice Scrolling
+// $("html").niceScroll({
+//     cursorwidth: '12px',
+//     cursorminheight: 32,
+//     cursorcolor: "black",
+//     cursorborder:"2px solid rgb(208, 77, 30)",
+//     cursorborderradius:"5px",
+//     autohidemode: false, 
+//     smoothscroll:true,
+    
+//     enablekeyboard:true,
+//     enablemousewheel:true,
+//     zindex:999,
+// }); 
+
+// $(document).ready(function () {
+// 	"use strict";
+// $("html").niceScroll({
+//     cursorcolor:"#140606",
+// 	cursorwidth:"12px",
+// 	cursorborder:"#E41B17 solid 2px"
+// });
+// });
