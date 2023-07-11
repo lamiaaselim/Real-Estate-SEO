@@ -141,14 +141,9 @@ i .fa-store:hover{
     font-size: 3rem;
     font-weight: bold;
 }
-.service p:nth-child(1){
-    padding-top: 100px;
+.service p{
     font-size: 15px;
     font-weight: 500;
-    color: black;
-}
-.service p:nth-child(2){
-    font-size: 15px;
     color: black;
 }
 /*-------------------- Whatsapp --------------------*/
@@ -201,7 +196,6 @@ i .fa-store:hover{
 }
 .socials i{
     font-size: 20 px;
-    margin-right: 90px;
 }
 @media (max-width: 767px) {
     .single-box{
