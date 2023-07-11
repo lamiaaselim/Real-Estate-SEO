@@ -69,7 +69,7 @@ i .fa-store:hover{
 }
 .mbtn2{
     height: 50px;
-    width: 25%;
+    width: 50%;
     padding-top: 12px;
     outline: none;
     border: 1px solid rgb(20, 140, 190);
@@ -206,4 +206,21 @@ i .fa-store:hover{
     .single-box{
         margin-bottom: 50px;
     }
+}
+#navBtn{
+    height: 50px;
+    width: 160px;
+    padding-top: 12px;
+    outline: none;
+    border: 1px solid rgb(20, 140, 190);
+    background-color: transparent;
+    color: rgb(20, 140, 190);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+#navBtn:hover{
+    border: none;
+    background-color: rgb(20, 140, 190);
+    color: white;
 }
