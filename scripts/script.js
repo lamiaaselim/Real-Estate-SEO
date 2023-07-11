@@ -1,23 +1,16 @@
-// // Nice Scrolling
-// $("html").niceScroll({
-//     cursorwidth: '12px',
-//     cursorminheight: 32,
-//     cursorcolor: "black",
-//     cursorborder:"2px solid rgb(208, 77, 30)",
-//     cursorborderradius:"5px",
-//     autohidemode: false, 
-//     smoothscroll:true,
-    
-//     enablekeyboard:true,
-//     enablemousewheel:true,
-//     zindex:999,
-// }); 
-
-// $(document).ready(function () {
-// 	"use strict";
+// //Nice Scrolling
 // $("html").niceScroll({
 //     cursorcolor:"#140606",
 // 	cursorwidth:"12px",
-// 	cursorborder:"#E41B17 solid 2px"
+// 	cursorborder:"rgb(20, 140, 190) solid 2px"
 // });
+// // Carousel-item
+// $(window).on('load', function() {
+//     var maxHeight = 0;
+//     $('.carousel-inner .carousel-item img').each(function() {
+//         if ($(this).height() > maxHeight) {
+//         maxHeight = $(this).height();
+//         }
+//     });
+//     $('.carousel-inner .carousel-item img').css('height', maxHeight);
 // });

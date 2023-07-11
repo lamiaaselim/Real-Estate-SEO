@@ -56,13 +56,10 @@ i .fa-store:hover{
 /* End Navbar */
 
 /* Main section */
-.carousel-inner {
-    border-radius: 50% 0 50% 0;
-    margin: 0 25px 0 0;
-}
 .mbtn1{
     height: 50px;
     width: 30%;
+    padding-top: 12px;
     outline: none;
     border: none;
     background-color: rgb(54, 168, 213);
@@ -73,6 +70,7 @@ i .fa-store:hover{
 .mbtn2{
     height: 50px;
     width: 25%;
+    padding-top: 12px;
     outline: none;
     border: 1px solid rgb(20, 140, 190);
     background-color: transparent;
@@ -82,6 +80,7 @@ i .fa-store:hover{
 }
 .mbtn1:hover{
     background-color: rgb(20, 140, 190);
+    color: white;
 }
 .mbtn2:hover{
     border: none;
@@ -108,6 +107,13 @@ i .fa-store:hover{
     width: 30%;
     background: rgb(20, 140, 190);
     display: inline-block;
+}
+.carousel-inner {
+    border-radius: 50% 0 50% 0;
+}
+.carousel-inner .carousel-item img {
+    height: 400px; /* ارتفاع الصورة المطلوب */
+    object-fit: cover; /* لتغطية الصورة داخل الحاوية */
 }
 /* --------- About section --------- */
 /* .about{
@@ -159,7 +165,7 @@ i .fa-store:hover{
     border-radius: 50px;
     margin: 0 auto;
     display: block;
-    font-weight: lighter;
+    padding-top: 12px;
     transition: all 0.4s;
 }
 .dbtn:hover{
