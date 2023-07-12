@@ -4,6 +4,7 @@
 // 	cursorwidth:"12px",
 // 	cursorborder:"rgb(20, 140, 190) solid 2px"
 // });
+
 // // Carousel-item
 // $(window).on('load', function() {
 //     var maxHeight = 0;

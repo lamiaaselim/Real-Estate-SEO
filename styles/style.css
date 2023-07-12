@@ -196,12 +196,11 @@ i .fa-store:hover{
 	height: 100px;
 	margin-bottom: 8px;
 }
-.contact-us .contact-form input:focus,
-.contact-us .contact-form button:focus,
-.contact-us .contact-form textarea:focus{
-    border: 1px solid 2px rgb(20, 140, 190);
+.contact-form input:focus,
+.contact-form button:focus,
+.contact-form textarea:focus{
+    border: 2px solid rgb(20, 140, 190);
     box-shadow: none;
-    border-color: rgb(20, 140, 190);
     box-shadow: -1px 1px 20px -11px rgb(54, 168, 213);
 }
 .contact-us .contact-form input,
