@@ -53,9 +53,30 @@ i .fa-store:hover{
     outline: none;
     box-shadow: none;
 }
+#navBtn{
+    height: 50px;
+    width: 160px;
+    padding-top: 12px;
+    outline: none;
+    border: 1px solid rgb(20, 140, 190);
+    background-color: transparent;
+    color: rgb(20, 140, 190);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+#navBtn:hover{
+    border: none;
+    background-color: rgb(20, 140, 190);
+    color: white;
+}
 /* End Navbar */
 
 /* Main section */
+.head1{
+    font-weight: 400;
+    margin: 0;
+}
 .mbtn1{
     height: 50px;
     width: 30%;
@@ -194,33 +215,4 @@ i .fa-store:hover{
     background: rgb(54, 168, 213);
     padding: 85px 0;
 }
-.socials i{
-    font-size: 20 px;
-}
-@media (max-width: 767px) {
-    .single-box{
-        margin-bottom: 50px;
-    }
-}
-@media (min-width: 768px) and (max-width: 991px) {
-    .single-box{
-        margin-bottom: 50px;
-    }
-}
-#navBtn{
-    height: 50px;
-    width: 160px;
-    padding-top: 12px;
-    outline: none;
-    border: 1px solid rgb(20, 140, 190);
-    background-color: transparent;
-    color: rgb(20, 140, 190);
-    border-radius: 50px;
-    transition: all 0.4s;
-}
 
-#navBtn:hover{
-    border: none;
-    background-color: rgb(20, 140, 190);
-    color: white;
-}
