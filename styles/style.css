@@ -1,20 +1,24 @@
 @import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-*{
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     direction: rtl;
 }
-::selection{
+
+::selection {
     background-color: rgb(54, 168, 213);
     color: aliceblue;
 }
+
 /* #148cbe */
 /* ------------ Navbar ------------ */
-i .fa-store:hover{
-    color:rgb(20, 140, 190);
+i .fa-store:hover {
+    color: rgb(20, 140, 190);
 }
-.nav-item a{
+
+.nav-item a {
     text-decoration: none;
     color: black;
     font-weight: 600;
@@ -22,10 +26,12 @@ i .fa-store:hover{
     margin-right: 15px;
     font-family: 'Droid Arabic Kufi', sans-serif;
 }
-.nav-item a:hover{
+
+.nav-item a:hover {
     color: rgb(20, 140, 190);
 }
-.search{
+
+.search {
     height: 45px;
     outline: none;
     border: 2px solid rgb(20, 140, 190);
@@ -33,7 +39,8 @@ i .fa-store:hover{
     border-radius: 0px 20px 20px 0px;
     border-left: none;
 }
-.btn1{
+
+.btn1 {
     height: 45px;
     outline: none;
     border: none;
@@ -42,18 +49,22 @@ i .fa-store:hover{
     border-radius: 20px 0px 0px 20px;
     transition: all 0.4s;
 }
-.btn1:hover{
+
+.btn1:hover {
     background-color: rgb(20, 140, 190);
 }
-.navbar-toggler{
+
+.navbar-toggler {
     font-size: 20px;
     color: black;
 }
-.navbar-toggler:focus{
+
+.navbar-toggler:focus {
     outline: none;
     box-shadow: none;
 }
-#navBtn{
+
+#navBtn {
     height: 50px;
     width: 160px;
     padding-top: 12px;
@@ -65,21 +76,23 @@ i .fa-store:hover{
     transition: all 0.4s;
 }
 
-#navBtn:hover{
+#navBtn:hover {
     border: none;
     background-color: rgb(20, 140, 190);
     color: white;
 }
+
 /* End Navbar */
 
 /* Main section */
-.head1{
+.head1 {
     font-weight: 400;
     margin: 0;
 }
-.mbtn1{
+
+.mbtn1 {
     height: 50px;
-    width: 30%;
+    width: 40%;
     padding-top: 12px;
     outline: none;
     border: none;
@@ -88,7 +101,8 @@ i .fa-store:hover{
     border-radius: 50px;
     transition: all 0.4s;
 }
-.mbtn2{
+
+.mbtn2 {
     height: 50px;
     width: 50%;
     padding-top: 12px;
@@ -99,43 +113,54 @@ i .fa-store:hover{
     border-radius: 50px;
     transition: all 0.4s;
 }
-.mbtn1:hover{
+
+.mbtn1:hover {
     background-color: rgb(20, 140, 190);
     color: white;
 }
-.mbtn2:hover{
+
+.mbtn2:hover {
     border: none;
     background-color: rgb(20, 140, 190);
     color: white;
 }
-.main h1{
+
+.main h1 {
     font-size: 4.5rem;
     font-family: 'Droid Arabic Kufi', sans-serif;
 }
-.main p:nth-child(1){
+
+.main p:nth-child(1) {
     padding-top: 100px;
     font-size: 15px;
     font-weight: 500;
     color: black;
     font-family: 'Droid Arabic Kufi', sans-serif;
 }
-.main p:nth-child(2){
+
+.main p:nth-child(2) {
     font-size: 15px;
     color: black;
 }
-.line{
+
+.line {
     height: 6px;
     width: 30%;
     background: rgb(20, 140, 190);
     display: inline-block;
 }
+
 .carousel-inner {
     border-radius: 50% 0 50% 0;
 }
+
 .carousel-inner .carousel-item img {
-    height: 400px; /* ارتفاع الصورة المطلوب */
-    object-fit: cover; /* لتغطية الصورة داخل الحاوية */
+    height: 400px;
+    /* ارتفاع الصورة المطلوب */
+    object-fit: cover;
+    /* لتغطية الصورة داخل الحاوية */
 }
+
 /* --------- About section --------- */
 /* .about{
     background: url(../images/Building\ safety-rafiki.svg) no-repeat;
@@ -143,35 +168,41 @@ i .fa-store:hover{
     height:600px;
     width: 100%;
 } */
-.about h1{
+.about h1 {
     font-size: 3rem;
     font-weight: bold;
 }
-.about p:nth-child(1){
+
+.about p:nth-child(1) {
     padding-top: 100px;
     font-size: 15px;
     font-weight: 500;
     color: black;
 }
-.about p:nth-child(2){
+
+.about p:nth-child(2) {
     font-size: 15px;
     color: black;
 }
+
 /* ---------- Services section ----------  */
-.service h1{
+.service h1 {
     font-size: 3rem;
     font-weight: bold;
 }
-.service p{
+
+.service p {
     font-size: 15px;
     font-weight: 500;
     color: black;
 }
+
 /*-------------------- Whatsapp --------------------*/
-.whatsapp{
+.whatsapp {
     background-color: rgb(54, 168, 213);
 }
-.dbtn{
+
+.dbtn {
     height: 50px;
     width: 90%;
     outline: none;
@@ -184,29 +215,34 @@ i .fa-store:hover{
     padding-top: 12px;
     transition: all 0.4s;
 }
-.dbtn:hover{
+
+.dbtn:hover {
     background-color: rgb(238, 231, 231);
 }
+
 /*-------------------- Contact-us Seller --------------------*/
-.contact-us h1{
+.contact-us h1 {
     font-size: 2.5rem;
     font-weight: bold;
 }
-.contact-us .contact-form textarea{
-	height: 100px;
-	margin-bottom: 8px;
+
+.contact-us .contact-form textarea {
+    height: 100px;
+    margin-bottom: 8px;
 }
+
 .contact-form input:focus,
 .contact-form button:focus,
-.contact-form textarea:focus{
+.contact-form textarea:focus {
     border: 2px solid rgb(20, 140, 190);
     box-shadow: none;
     box-shadow: -1px 1px 20px -11px rgb(54, 168, 213);
 }
+
 .contact-us .contact-form input,
-.contact-us .contact-form textarea{
-	background: #FFF;
-	color: black;
+.contact-us .contact-form textarea {
+    background: #FFF;
+    color: black;
 }
 
 /*-------------------- Footer  --------------------*/
@@ -215,3 +251,66 @@ i .fa-store:hover{
     padding: 85px 0;
 }
 
+/*__________________ Start Testimonials Section ______________________*/
+
+.wrapper .box {
+    background: #fff;
+    width: calc(25% - 10px);
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper .box i.quote {
+    font-size: 20px;
+    color: rgb(20, 140, 190);
+}
+
+.wrapper .box .content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.box .info .name {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.box .info .job {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(20, 140, 190);
+}
+
+.box .info .stars {
+    margin-top: 2px;
+}
+
+.box .info .stars i {
+    color: rgb(20, 140, 190);
+}
+
+.box .content .image {
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background: rgb(20, 140, 190);
+    border-radius: 50%;
+}
+
+.content .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.box:hover .content .image img {
+    border-color: #fff;
+}
+
+/*__________________ End Testimonials Section ______________________*/
