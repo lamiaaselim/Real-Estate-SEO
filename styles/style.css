@@ -11,7 +11,9 @@
     background-color: rgb(54, 168, 213);
     color: aliceblue;
 }
-
+.custom-color{
+    color: #148cbe;
+}
 /* #148cbe */
 /* ------------ Navbar ------------ */
 i .fa-store:hover {
@@ -171,6 +173,7 @@ i .fa-store:hover {
 .about h1 {
     font-size: 3rem;
     font-weight: bold;
+    color: #148cbe;
 }
 
 .about p:nth-child(1) {
