@@ -94,7 +94,8 @@ i .fa-store:hover {
 
 .mbtn1 {
     height: 50px;
-    width: 40%;
+    width: 60%;
+    font-weight: 500;
     padding-top: 12px;
     outline: none;
     border: none;
@@ -209,18 +210,24 @@ i .fa-store:hover {
     height: 50px;
     width: 90%;
     outline: none;
+    font-weight: bold;
     border: none;
     background-color: white;
-    color: black;
+    color: green;
     border-radius: 50px;
     margin: 0 auto;
     display: block;
     padding-top: 12px;
     transition: all 0.4s;
 }
-
+.dbtn-i{
+    color: green;
+    font-weight: bold;
+}
 .dbtn:hover {
     background-color: rgb(238, 231, 231);
+    color: green;
+    
 }
 
 /*-------------------- Contact-us Seller --------------------*/
